@@ -8,6 +8,9 @@
   RCS, and 6 for stacking the most tanks possible); the lowest number
   that satisfies both is 12. (This is so that graphically, radially
   attached objects are always attached to a flat surface.)
+* With low-poly art, it might be worth it to procedurally generate all
+  of the parts on the fly (e.g. a 4m fuel tank is virtually identical
+  to a 2m fuel tank).
 
 ## Physics
 
@@ -27,7 +30,9 @@
 
 ## Edge cases
 
-* When you have a twin-engine thrust plate (**), the stage beneath it
-  attaches to the thrust plate instead.
+* When you have a multiple-engine thrust plate (**), the stage beneath
+  it attaches to the thrust plate instead.
 * When you decouple, the interstage stays attached to the previous
   stage.
+* What about stage expansion and interstages; e.g. 2m engine to 4m
+  first stage? Maybe should be generated procedurally.
