@@ -14,3 +14,20 @@
 * Treeform proposed using a single convex hull for the entire ship.
 * Problem: there is no such thing as breaking then. If you wanted to,
   you could build an entire ship that rested on a single RCS nozzle.
+
+## Gameplay
+
+* Thrust plates!!!!!
+* Thrust plates also make it cleaner to have multiple rockets on one
+  fuel tank.
+* Full-sized Sol system (none of this "denser than gold" shenanigans)
+* Interstages will probably be automatically generated (per top part;
+  SRBs can have different interstages beneath them than than liquid
+  fuel engines), like KSP.
+
+## Edge cases
+
+* When you have a twin-engine thrust plate (**), the stage beneath it
+  attaches to the thrust plate instead.
+* When you decouple, the interstage stays attached to the previous
+  stage.
